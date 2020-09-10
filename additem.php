@@ -1,6 +1,5 @@
 <?php
 
-	//Add new menu item
 	if (isset($_POST['addItem'])) {
 
 		if (!empty($_POST['itemName']) && !empty($_POST['itemPrice']) && !empty($_POST['menuID'])) {
@@ -17,13 +16,13 @@
 			} 
 
 			else {
-				//handle
+			
 				echo "someting wong";
 				echo $sqlconnection->error;
 			}
 		}
 
-		//No input handle
+		
 		else {
 			echo "Jangan bia kosong bang";
 		}
