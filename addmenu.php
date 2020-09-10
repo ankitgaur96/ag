@@ -1,6 +1,6 @@
 <?php
 	
-	//Add new menu (category)
+	
 	if (isset($_POST['addmenu'])) {
 
 		if (!empty($_POST['menuname'])) {
@@ -16,7 +16,7 @@
 			}
 		}
 
-		//No input handle
+		
 		else {
 			echo "Jangan bia kosong bang 12";
 		}
